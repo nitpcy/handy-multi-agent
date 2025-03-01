@@ -1,4 +1,4 @@
-# CAMEL Agent Tutorial
+# Handy Multi Agent
 
 > 目前教程还处于迭代中，可前往飞书文档进行学习; 有疑问和运行不通的地方欢迎在github提issue和在教程添加评论信息~
 
@@ -6,11 +6,9 @@
 
 教程速通版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/U3PwdA2utoafCIxChmbcPymnngh?from=from_copylink
 
-CAMEL-AI项目地址: https://github.com/camel-ai/camel
-
 ## 项目简介
 
-- 课程说明：CAMEL 是最早的[基于 LLM 的多智能体框架](https://arxiv.org/pdf/2303.17760.pdf)，现在是一个通用框架，用于构建和使用基于 LLM 的智能体来解决实际任务。**camel-agent-tutorial** 是一套专为那些期望深入了解并实践多智能体系统的开发者设计的实用指南。本教程基于国内领先的多智能体框架 CAMEL-AI（NeruIPS'2023），从最基本的单个Agent开发，逐渐尝试构建复杂的Multi Agent应用。
+- 课程说明：**Handy-Multi-Agent** 是一套专为那些期望深入了解并实践多智能体系统的开发者设计的实用指南。本教程基于国内领先的多智能体框架 [CAMEL-AI（NeruIPS'2023）](https://arxiv.org/pdf/2303.17760.pdf)，从最基本的单个Agent开发，逐渐尝试构建复杂的Multi Agent应用。
 - 面向人群：
   - 本项目侧重点在实践和动手构建Agent应用的层面，但会将理论部分结合。适于对多智能体系统、大模型应用或人工智能领域有研究兴趣、希望通过实践了解并探索LLM在多智能体系统中应用的同学。
   - 通过这个项目，我们希望帮助开发者：
@@ -27,7 +25,7 @@ CAMEL-AI项目地址: https://github.com/camel-ai/camel
 ## 目录
 
 
-# CAMEL Multi-Agent Tutorial
+# Handy Multi Agent Tutorial
 
 - ## 第零章：序言
   - 0.1 加入我们
