@@ -128,7 +128,8 @@
     - UI在线交互模块
     - 个人信息输入模块
     - 模型选择
-  - 5.7 CAMEL的特色功能——数据合成
+- ## 第6章：数据合成
+  - 6.1 CAMEL的特色功能——数据合成
 
 - ## 附录
   - 支持的模型
@@ -163,7 +164,7 @@
 
 **核心贡献者**
 - [陈思州-项目负责人](https://github.com/jjyaoao) (Datawhale成员-CAMEL-AI成员)
-- [孙韬-项目负责人](https://github.com/fengju0213) (Datawhale鲸英助教-湖南大学研究生)
+- [孙韬-项目负责人](https://github.com/fengju0213) (Datawhale鲸英助教-湖南大学硕士在读)
 - [姜舒凡-核心贡献者](https://github.com/Tsumugii24) (Datawhale成员-华东理工大学本科生)
 - [范文栋-核心贡献者](https://github.com/Wendong-Fan) (CAMEL-AI成员-算法工程师)
 
