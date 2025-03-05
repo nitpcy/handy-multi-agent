@@ -1,6 +1,8 @@
 # Handy Multi Agent
 
-> 目前教程还处于迭代中，可前往飞书文档进行学习; 有疑问和运行不通的地方欢迎在github提issue和在教程添加评论信息~
+> 目前教程还处于迭代中，已更新markdown文档在docs目录下，后续会陆续上传每一部分的可执行代码，可一键跑通~ 有任何疑问或是想新增的feature欢迎在github提issue反馈~
+
+也可前往飞书文档进行学习; 
 
 教程完整版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe?from=from_copylink
 
@@ -152,8 +154,8 @@
 
 ## 参与贡献
 
-- 如果你想参与到项目中来欢迎查看项目的 [Issue](https://github.com/datawhalechina/camel-agent-tutorial/issues) 查看没有被分配的任务。
-- 如果你发现了一些问题，欢迎在 [Issue](https://github.com/datawhalechina/camel-agent-tutorial/issues) 中进行反馈🐛。
+- 如果你想参与到项目中来欢迎查看项目的 [Issue](https://github.com/datawhalechina/handy-multi-agent/issues) 查看没有被分配的任务。
+- 如果你发现了一些问题，欢迎在 [Issue](https://github.com/datawhalechina/handy-multi-agent/issues) 中进行反馈🐛。
 - 如果你对本项目感兴趣想要参与进来可以通过 [Discussion]() 进行交流💬
 - 如果有任何想法可以联系我们 DataWhale&CAMEL 社区开发者，也欢迎大家多多提出 issue
 - 特别感谢以下为教程做出贡献的同学！
