@@ -8,7 +8,7 @@
   * [1.1 获取CAMEL](chapter1/1.1.get-camel.md)
   * [1.2 API设置](chapter1/1.2.api-setup.md)
   * [1.3 Hello CAMEL!](chapter1/1.3.hello-camel.md)
-  * [1.4 第一章课程作业](chapter1/1.7.homework.md)
+  * [1.4 第一章课程作业](chapter1/1.4.homework.md)
 * 第二章：Agent 的构成组件
   * [2.1 智能体概述](chapter2/2.1.agent-overview.md)
   * [2.2 Agent设计原则与方法](chapter2/2.2.agent-design.md)
@@ -17,12 +17,12 @@
   * [2.5 Prompt Engineering](chapter2/2.5.prompt-engineering.md)
   * [2.6 Memory](chapter2/2.6.memory.md)
   * [2.7 Tools](chapter2/2.7.tools.md)
-  * [2.8 第二章课程作业](chapter2/2.7.homework.md)
+  * [2.8 第二章课程作业](chapter2/2.8.homework.md)
 * 第三章：CAMEL框架简介及实践
   * [3.1 CAMEL框架简介](chapter3/3.1.camel-intro.md)
   * [3.2 创建你的第一个Agent Society](chapter3/3.2.first-agent-society.md)
   * [3.3 创建你的Workforce](chapter3/3.3.create-workforce.md)
-  * [3.4 第三章课程作业](chapter3/3.7.homework.md)
+  * [3.4 第三章课程作业](chapter3/3.4.homework.md)
 * 第四章：CAMEL框架下的RAG应用
   * [4.1 RAG的组件介绍](chapter4/4.1.rag-components.md)
   * [4.2 向量数据库介绍](chapter4/4.2.vector-db.md)
