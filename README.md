@@ -2,11 +2,7 @@
 
 > 目前教程还处于迭代中，已更新markdown文档在docs目录下，后续会陆续上传每一部分的可执行代码，可一键跑通~ 有任何疑问或是想新增的feature欢迎在github提issue反馈~
 
-也可前往飞书文档进行学习; 
-
-教程完整版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe?from=from_copylink
-
-教程速通版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/U3PwdA2utoafCIxChmbcPymnngh?from=from_copylink
+在线阅读链接：https://datawhalechina.github.io/handy-multi-agent/
 
 ## 项目简介
 
