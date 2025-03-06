@@ -192,7 +192,7 @@
   </div>
   <div style="display: inline-block; text-align: center; margin: 10px;">
     <p>扫描下方二维码关注公众号：CAMEL-AI</p>
-    <img src="images/CAMEL-AI.png" width="180" height="180">
+    <img src="https://s2.loli.net/2025/03/06/ED5GPU1dRNqBk9j.png" width="180" height="180">
   </div>
 </div>
 
