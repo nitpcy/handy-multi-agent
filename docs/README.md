@@ -1,7 +1,3 @@
-教程完整版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe?from=from_copylink
-
-教程速通版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/U3PwdA2utoafCIxChmbcPymnngh?from=from_copylink
-
 # Handy Multi Agent
 
 > 一套专为深入了解并实践多智能体系统的开发者设计的实用指南
@@ -9,6 +5,13 @@
 ## 项目简介
 
 **Handy-Multi-Agent** 是一套专为那些期望深入了解并实践多智能体系统的开发者设计的实用指南。本教程基于国内领先的多智能体框架 [CAMEL-AI（NeruIPS'2023）](https://arxiv.org/pdf/2303.17760.pdf)，从最基本的单个Agent开发，逐渐尝试构建复杂的Multi Agent应用。
+
+项目github链接：https://github.com/datawhalechina/handy-multi-agent
+> 如果你觉得这个项目有用，请给它一个 ⭐️ Star，这样可以帮助更多人发现它！
+
+教程完整版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe?from=from_copylink
+
+教程速通版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/U3PwdA2utoafCIxChmbcPymnngh?from=from_copylink
 
 ### 面向人群
 
