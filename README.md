@@ -162,7 +162,7 @@
 
 **核心贡献者**
 - [陈思州-项目负责人](https://github.com/jjyaoao) (Datawhale成员-CAMEL-AI成员)
-- [孙韬-项目负责人](https://github.com/fengju0213) (Datawhale鲸英助教-湖南大学研二在读)
+- [孙韬-项目负责人](https://github.com/fengju0213) (Datawhale鲸英助教-CAMEL-AI成员)
 - [姜舒凡-核心贡献者](https://github.com/Tsumugii24) (Datawhale成员-华东理工大学本科生)
 - [范文栋-核心贡献者](https://github.com/Wendong-Fan) (CAMEL-AI成员-算法工程师)
 
