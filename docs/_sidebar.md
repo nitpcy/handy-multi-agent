@@ -43,3 +43,4 @@
   * [6.1 CAMEL的特色功能——数据合成](chapter6/6.1.data-synthesis.md)
   * [6.2 结语](chapter6/6.2.conclusion.md)
 * [附录：支持的模型](appendix/supported-models.md)
+* [附录：Loader补充](appendix/add-for-loader.md)
