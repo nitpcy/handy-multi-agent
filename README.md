@@ -74,10 +74,6 @@ handy-multi-agent/
 
 ## 📝 内容目录
 
-完整教程内容请访问以下链接之一查看：
-- **GitHub Pages**: [https://datawhalechina.github.io/handy-multi-agent/](https://datawhalechina.github.io/handy-multi-agent/)
-- **飞书文档**: [https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe](https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe)
-
 ### 章节概览
 
 * **第零章：序言**
@@ -150,8 +146,10 @@ pip install "camel-ai[all]==0.2.38"
 
 ## 🔍 在线阅读
 
-- 在线飞书文档链接：https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe
-- 在线GitHub Pages链接：https://datawhalechina.github.io/handy-multi-agent/
+完整教程内容可访问以下链接之一查看：
+- **GitHub Pages**: [https://datawhalechina.github.io/handy-multi-agent/](https://datawhalechina.github.io/handy-multi-agent/)
+- **飞书文档**: [https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe](https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe)
+
 
 ## 📅 Roadmap
 
