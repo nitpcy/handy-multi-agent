@@ -190,14 +190,18 @@ pip install "camel-ai[all]==0.2.38"
 ## 📱 关注我们
 
 <div align="center">
-  <div style="display: inline-block; text-align: center; margin: 10px;">
-    <p>扫描下方二维码关注公众号：Datawhale</p>
-    <img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width="180" height="180">
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 10px;">
-    <p>扫描下方二维码关注公众号：CAMEL-AI</p>
-    <img src="https://s2.loli.net/2025/03/06/ED5GPU1dRNqBk9j.png" width="180" height="180">
-  </div>
+<table>
+  <tr>
+    <td align="center">
+      <p>扫描下方二维码关注公众号：Datawhale</p>
+      <img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width="180" height="180">
+    </td>
+    <td align="center">
+      <p>扫描下方二维码关注公众号：CAMEL-AI</p>
+      <img src="https://s2.loli.net/2025/03/06/ED5GPU1dRNqBk9j.png" width="180" height="180">
+    </td>
+  </tr>
+</table>
 </div>
 
 ## 📄 LICENSE
