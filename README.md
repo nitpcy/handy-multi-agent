@@ -1,9 +1,9 @@
 # Handy Multi-Agent 教程
 
 <div align="center">
-  <img src="https://s2.loli.net/2025/04/05/XagKqdzWe67fDt8.jpg" alt="Handy Multi-Agent Logo" width="420">
+  <img src="https://s2.loli.net/2025/04/05/XagKqdzWe67fDt8.jpg" alt="Handy Multi-Agent Logo">
   <br>
-  <p>基于CAMEL框架的多智能体系统实用指南</p>
+  <p>基于CAMEL框架从零开始构建多智能体系统的实用指南</p>
   <p>
     <a href="https://github.com/datawhalechina/handy-multi-agent/stargazers">
       <img alt="GitHub stars" src="https://img.shields.io/github/stars/datawhalechina/handy-multi-agent">
@@ -19,6 +19,7 @@
     </a>
   </p>
 </div>
+
 
 
 > 🎉 **项目已正式发布第一版！** 完整教程文档已更新至docs目录，配套可执行代码位于code目录，可一键运行。如有任何疑问或功能建议，欢迎在GitHub提issue反馈~
