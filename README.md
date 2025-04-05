@@ -14,8 +14,8 @@
     <a href="https://github.com/datawhalechina/handy-multi-agent/issues">
       <img alt="GitHub issues" src="https://img.shields.io/github/issues/datawhalechina/handy-multi-agent">
     </a>
-    <a href="https://github.com/datawhalechina/handy-multi-agent/blob/main/LICENSE">
-      <img alt="GitHub license" src="https://img.shields.io/github/license/datawhalechina/handy-multi-agent">
+    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img alt="GitHub license" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey">
     </a>
   </p>
 </div>
