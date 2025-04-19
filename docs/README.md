@@ -9,10 +9,6 @@
 项目github链接：https://github.com/datawhalechina/handy-multi-agent
 > 如果你觉得这个项目有用，请给它一个 ⭐️ Star，这样可以帮助更多人发现它！
 
-教程完整版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/AF4XdOZpIo6TOaxzDK8cxInNnCe?from=from_copylink
-
-教程速通版在线阅读链接: https://fmhw1n4zpn.feishu.cn/docx/U3PwdA2utoafCIxChmbcPymnngh?from=from_copylink
-
 ### 面向人群
 
 本项目侧重点在实践和动手构建Agent应用的层面，但会将理论部分结合。适于对多智能体系统、大模型应用或人工智能领域有研究兴趣、希望通过实践了解并探索LLM在多智能体系统中应用的同学。
