@@ -169,7 +169,7 @@ pip install "camel-ai[all]==0.2.38"
 ### 核心贡献者
 - [陈思州-项目负责人](https://github.com/jjyaoao) (Datawhale成员-CAMEL-AI成员)
 - [孙韬-项目负责人](https://github.com/fengju0213) (Datawhale鲸英助教-CAMEL-AI成员)
-- [姜舒凡-核心贡献者](https://github.com/Tsumugii24) (Datawhale成员-华东理工大学)
+- [姜舒凡-核心贡献者](https://github.com/Tsumugii24) (Datawhale成员-香港理工大学)
 - [范文栋-核心贡献者](https://github.com/Wendong-Fan) (CAMEL-AI成员-算法工程师)
 
 ### 主要贡献者
@@ -182,6 +182,8 @@ pip install "camel-ai[all]==0.2.38"
 - [邢硕-内容创作者](https://github.com/Susan2048) (Datawhale意向成员)
 - [康婧淇-内容创作者](jkan0031@student.monash.edu) (Datawhale成员)
 - [金子涵-内容创作者](https://github.com/dongyu23) (Datawhale意向成员)
+- [朱忠懿-内容创作者](https://github.com/aut-rain) (Datawhale鲸英助教)
+
 
 特别感谢[@Sm1les](https://github.com/Sm1les)对项目的帮助和支持~
 
