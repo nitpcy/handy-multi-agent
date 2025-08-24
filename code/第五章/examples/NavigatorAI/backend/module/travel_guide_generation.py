@@ -31,7 +31,7 @@ qwen_model = ModelFactory.create(
 tools_list = [
     *SearchToolkit().get_tools(),
 ]
-
+# 如果此处案例中search_duckduckgo()方法报错，可参考2.7.3进阶案例中的办法进行重写
 sys_msg = """
 你是一位专业的旅游规划师。请你根据用户输入的旅行需求，包括旅行天数、景点/美食的距离、描述、图片URL、预计游玩/就餐时长等信息，为用户提供一个详细的行程规划。
 
