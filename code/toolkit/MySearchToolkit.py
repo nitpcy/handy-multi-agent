@@ -33,7 +33,8 @@ class MySearchToolkit(SearchToolkit):
             List[Dict[str, Any]]: A list of dictionaries where each dictionary
                 represents a search result.
         """
-        from ddgs import DDGS
+        # from ddgs import DDGS
+        from duckduckgo_search import DDGS
         from requests.exceptions import RequestException
 
         ddgs = DDGS()
