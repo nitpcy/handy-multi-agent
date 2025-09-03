@@ -58,14 +58,20 @@ SYSTEM_PROMPT = """
 app = Flask(__name__)
 
 def create_travel_agent():
+    # qwen_model = ModelFactory.create(
+    #     model_platform=ModelPlatformType.OPENAI_COMPATIBLE_MODEL,
+    #     model_type="Qwen/Qwen2.5-72B-Instruct",
+    #     api_key=API_KEY,
+    #     url="https://api-inference.modelscope.cn/v1",
+    #     model_config_dict=QwenConfig(temperature=0.2).as_dict(),
+    # )
     qwen_model = ModelFactory.create(
         model_platform=ModelPlatformType.OPENAI_COMPATIBLE_MODEL,
         model_type="Qwen/Qwen2.5-72B-Instruct",
-        api_key=API_KEY,
-        url="https://api-inference.modelscope.cn/v1",
+        api_key=os.getenv("OPENAI_API_KEY"),
+        url=os.getenv("OPENAI_BASE_URL"),
         model_config_dict=QwenConfig(temperature=0.2).as_dict(),
     )
-
     agent = ChatAgent(
         system_message=SYSTEM_PROMPT,
         model=qwen_model,

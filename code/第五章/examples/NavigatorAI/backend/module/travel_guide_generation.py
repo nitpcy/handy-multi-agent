@@ -8,26 +8,24 @@ from camel.models import ModelFactory
 from camel.types import ModelPlatformType
 from camel.toolkits import SearchToolkit
 from camel.agents import ChatAgent
-from dotenv import load_dotenv
+from dotenv import load_dotenv,find_dotenv
 
-load_dotenv()
+load_dotenv(find_dotenv())
 
 
 app = Flask(__name__)
 
-# 环境变量
-os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-os.environ["SEARCH_ENGINE_ID"] = os.getenv("SEARCH_ENGINE_ID")
+
+
 
 # 模型初始化
 qwen_model = ModelFactory.create(
     model_platform=ModelPlatformType.OPENAI_COMPATIBLE_MODEL,
     model_type="Qwen/Qwen2.5-72B-Instruct",
-    api_key=os.getenv("QWEN_API_KEY"),
-    url="https://api-inference.modelscope.cn/v1",
-    model_config_dict=QwenConfig(temperature=0.2).as_dict(),
+    api_key=os.getenv("OPENAI_API_KEY"),
+    url=os.getenv("OPENAI_BASE_URL"),
+    model_config_dict=QwenConfig(temperature=0.3).as_dict(),
 )
-
 tools_list = [
     *SearchToolkit().get_tools(),
 ]
@@ -300,7 +298,7 @@ def generate_html_report(itinerary_text, data_dict):
     html_parts.append("</body></html>")
     return "\n".join(html_parts)
 
-def save_html_file(city: str, days: str, html_content: str) -> str:
+def save_html_file(city: str, days: str, html_content: str, json_filename: str) -> str:
     """
     保存HTML内容到文件
     
@@ -312,19 +310,19 @@ def save_html_file(city: str, days: str, html_content: str) -> str:
     Returns:
         str: 保存的文件路径
     """
-    # 确保storage目录存在
-    storage_dir = "storage"
-    if not os.path.exists(storage_dir):
-        os.makedirs(storage_dir)
+    # # 确保storage目录存在
+    # storage_dir = "storage"
+    # if not os.path.exists(storage_dir):
+    #     os.makedirs(storage_dir)
         
     # 生成文件名
-    filename = f"{storage_dir}/{city}{days}天旅游攻略.html"
+    # filename = f"{storage_dir}/{city}{days}天旅游攻略.html"
     
     # 保存HTML内容
-    with open(filename, "w", encoding="utf-8") as f:
+    with open(json_filename, "w", encoding="utf-8") as f:
         f.write(html_content)
         
-    return filename
+    return json_filename
 
 @app.route("/generate_itinerary_html", methods=["POST"])
 def generate_itinerary_html():
@@ -340,7 +338,7 @@ def generate_itinerary_html():
     city = req_data.get("city", "")
     days = req_data.get("days", "1")
 
-    json_filename = f"storage/{city}{days}天旅游信息.json"
+    json_filename = f"code/第五章/examples/NavigatorAI/backend/module/storage/{city}{days}天旅游信息.json"
     if not os.path.exists(json_filename):
         return jsonify({"error": f"文件 {json_filename} 不存在，请检查输入的目的地和天数！"}), 404
 
@@ -362,7 +360,8 @@ def generate_itinerary_html():
     html_content = generate_html_report(end_output, data)
 
     # 4. 保存HTML文件
-    saved_file = save_html_file(city, days, html_content)
+    json_filename = f"code/第五章/examples/NavigatorAI/backend/module/storage/{city}{days}天旅游攻略.html"
+    saved_file = save_html_file(city, days, html_content, json_filename)
 
     # 5. 返回文件路径和HTML内容
     return jsonify({

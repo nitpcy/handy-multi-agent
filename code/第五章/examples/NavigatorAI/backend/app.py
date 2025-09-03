@@ -3,10 +3,10 @@ from flask_cors import CORS
 from main import process_travel_plan
 import os
 from werkzeug.utils import secure_filename
-from dotenv import load_dotenv
+from dotenv import load_dotenv,find_dotenv
 
 # 加载环境变量
-load_dotenv()
+load_dotenv(find_dotenv())
 
 app = Flask(__name__)
 CORS(app, resources={

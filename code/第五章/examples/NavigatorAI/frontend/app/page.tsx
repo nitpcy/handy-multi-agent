@@ -46,7 +46,7 @@ export default function Home() {
   const generationController = useRef<AbortController | null>(null)
 
   const [currentServer, setCurrentServer] = useState<string>(
-    process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
+    process.env.NEXT_PUBLIC_API_URL || 'http://localhost:6000'
   )
 
   const [currentStage, setCurrentStage] = useState<string>('Stage 1')

@@ -1,0 +1,83 @@
+{
+    "city": "上饶鄱阳",
+    "days": 3,
+    "base路线": {
+        "base_guide": "上饶鄱阳3天旅游攻略\n\n【行程概览】\n- 第1天：婺源篁岭 → 李坑景区 → 老闵烤鸡腿品尝\n- 第2天：三清山观光（日出和云海）→ 婺源博物馆参观\n- 第3天：鄱阳湖游览 → 龟峰自然风景感受\n\n【行程详细】\n- 第1天：婺源篁岭出发，这里是一处著名的古村，以独特的徽派建筑和春天的油菜花而闻名。下午前往李坑景区，体验传统村落的生活氛围，傍晚时分在李坑品尝上饶烤鸡腿，这是一道当地的特色美食，外皮酥脆，肉质鲜嫩。\n- 第2天：早上前往三清山，观赏壮丽的日出和变幻莫测的云海，体验道教名山的独特魅力。下午返回婺源，参观婺源博物馆，了解当地的历史文化。\n- 第3天：全天游览鄱阳湖，感受中国第一大淡水湖的浩瀚和美丽。下午前往龟峰，探索大自然的鬼斧神工，最后返回住宿地点结束愉快的旅程。\n\n【美食推荐】\n- 上饶烤鸡腿：必尝！外皮酥脆，肉质鲜嫩，老闵烤鸡腿是一家不错的店。\n- 鄱阳湖鲜：推荐尝试湖口糟鱼，感受鄱阳湖的美味。\n\n【小贴士】\n- 最佳季节：\n  - 3-4月：婺源油菜花盛开（推荐江岭）\n  - 11月-次年1月：冬季旅游，体验不同的自然风光\n- 行李建议：带上舒适的鞋子，以及适当的防晒措施。春季和秋季温差较大，建议携带薄外套。\n- 交通提示：三清山和婺源等地交通便捷，可选择自驾游或公共交通。"
+    },
+    "景点": [
+        {
+            "name": "鄱阳湖国家湿地公园",
+            "describe": "位于江西省东北部的鄱阳县境内，占地面积36285公顷，分布范围广泛，地理构造独特，属于国家4A级景区。",
+            "图片url": "https://omo-oss-image.thefastimg.com/portal-saas/new2022081216381638273/cms/image/a03ee9df-7d85-494f-a8f0-97cde458c9ea.jpg"
+        },
+        {
+            "name": "望仙谷",
+            "describe": "上饶市网红景点之一，风景优美，适合拍照打卡。",
+            "图片url": "https://gd-hbimg.huaban.com/3682349276a5b3915fb19a0a875c4865bdddaa4a147e8f-xjD40C_fw658"
+        },
+        {
+            "name": "三清山",
+            "describe": "道教名山，云海缭绕、奇峰怪石，宛如人间仙境。",
+            "图片url": "http://www.sqsfjq.com/Data/Uploads/image/news/2022-10-26/6358b09089efa.jpeg"
+        },
+        {
+            "name": "婺源篁岭景区",
+            "describe": "著名旅游景点，以丰富的人文历史和自然风光著称。",
+            "图片url": "https://hellorfimg.zcool.cn/provider_image/large/2237545267.jpg"
+        },
+        {
+            "name": "李坑景区",
+            "describe": "上饶著名景点，保留了较为完整的古村落风貌。",
+            "图片url": "http://dimg08.c-ctrip.com/images/100k0r000000h19y35048_R_800_10000_Q90.jpg?proc=autoorient"
+        },
+        {
+            "name": "婺源篁嶺",
+            "describe": "婺源的一处著名景点，以春季油菜花和秋季晒秋习俗闻名。",
+            "图片url": "https://hellorfimg.zcool.cn/provider_image/large/2237718418.jpg"
+        },
+        {
+            "name": "鄱阳湖",
+            "describe": "中国最大的淡水湖，地理位置独特，生态系统丰富。",
+            "图片url": "https://so1.360tres.com/t016002ff9466d8816b.jpg"
+        },
+        {
+            "name": "九江市",
+            "describe": "江西省下辖地级市，历史文化和自然风光丰富。",
+            "图片url": "https://so1.360tres.com/t0180da5ee6a3017947.jpg"
+        },
+        {
+            "name": "庐山",
+            "describe": "著名的风景名胜区，以秀美的山水和历史文化闻名。",
+            "图片url": "http://d.51240.com/map/weixing/10/pn/poyangzhen.jpg"
+        },
+        {
+            "name": "庐山西海风景名胜区",
+            "describe": "位于江西省九江市庐山市，是一处集山水风光和休闲度假为一体的综合旅游区。",
+            "图片url": "https://pic2.zhimg.com/v2-3d8c9e9e3ecc087b0f0c6f53d0e26541_r.jpg"
+        }
+    ],
+    "美食": [
+        {
+            "name": "上饶烤鸡腿",
+            "describe": "外皮酥脆肉質鮮嫩，是上饒必吃美食。",
+            "图片url": "https://tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/47c3c896b411b363cd7c059cccb76511.jpg_1000x1000x90_bbdd4c25.jpg"
+        },
+        {
+            "name": "湖口糟鱼鄱阳湖鲜",
+            "describe": "鄱阳湖特色美食，鲜美可口。",
+            "图片url": "https://so1.360tres.com/t016de331d5bea3f19f.jpg"
+        },
+        {
+            "name": "特色米制品",
+            "describe": "Q弹多吃法，现蒸现吃或干炒都美味。",
+            "图片url": "https://tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/47c3c896b411b363cd7c059cccb76511.jpg_1000x1000x90_bbdd4c25.jpg"
+        }
+    ],
+    "美食店铺": [
+        {
+            "name": "老闵烤鸡腿",
+            "describe": "推荐的烤鸡腿店铺，味道极佳。",
+            "图片url": "https://img1.qunarzz.com/travel/poi/1511/90/b21f58971388b1f7.jpg_r_640x640_44675099.jpg"
+        }
+    ]
+}

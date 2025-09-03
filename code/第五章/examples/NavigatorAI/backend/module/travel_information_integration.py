@@ -8,14 +8,10 @@ from typing import List, Dict, Any
 from flask import Flask, request, jsonify
 import json
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv,find_dotenv
 
-load_dotenv()
+load_dotenv(find_dotenv())
 
-os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-os.environ["SEARCH_ENGINE_ID"] = os.getenv("SEARCH_ENGINE_ID")
-os.environ["FIRECRAWL_API_KEY"] = os.getenv("FIRECRAWL_API_KEY")
-os.environ["QWEN_API_KEY"] = os.getenv("QWEN_API_KEY")
 
 app = Flask(__name__)
 
@@ -31,10 +27,9 @@ class TravelPlanner:
         self.model = ModelFactory.create(
             model_platform=ModelPlatformType.OPENAI_COMPATIBLE_MODEL,
             model_type="Qwen/Qwen2.5-72B-Instruct",
-            url='https://api-inference.modelscope.cn/v1/',
-            api_key=os.getenv('QWEN_API_KEY')
+            url=os.getenv("OPENAI_BASE_URL"),
+            api_key=os.getenv("OPENAI_API_KEY")
         )
-
         # 初始化各种工具
         #重排序模型
         self.reranker_agent = ChatAgent(
@@ -102,7 +97,6 @@ class TravelPlanner:
         city = self.city
         days = self.days
         all_results = {}
-    
         # 第一次搜索：旅游攻略
         try:
             query = f"{city}{days}天旅游攻略 最佳路线"
@@ -194,6 +188,8 @@ class TravelPlanner:
         return final_result
     
     def extract_attractions_and_food(self) -> Dict:
+
+        
         travel_info = self.search_and_rerank()
 
         # 提供一个base攻略路线，直接根据整个travel_info生成
@@ -266,7 +262,8 @@ class TravelPlanner:
             if '```' in json_str:
                 json_str = json_str.split('```')[0]
             return json_str.strip()
-        
+
+
         city = self.city
         """处理景点和美食信息，添加图片URL"""
         # 获取原始数据
@@ -293,9 +290,14 @@ class TravelPlanner:
         for attraction in attractions_data['attractions']:
             try:
                 # 使用DuckDuckGo搜索图片
-                images = self.search_toolkit.search_duckduckgo(
+                # images = self.search_toolkit.search_duckduckgo(
+                #     query=f"{city} {attraction['name']} 实景图",
+                #     source="images",
+                #     max_results=1
+                # )
+                images = self.search_toolkit.search_bing_images(
                     query=f"{city} {attraction['name']} 实景图",
-                    source="images",
+                    # source="images",
                     max_results=1
                 )
                 
@@ -303,7 +305,7 @@ class TravelPlanner:
                 attraction_with_image = {
                     "name": attraction['name'],
                     "describe": attraction['description'],
-                    "图片url": images[0]["image"] if images else "",
+                    "图片url": images[0]["image_url"] if images else "",
                 }
                 result['景点'].append(attraction_with_image)
                 
@@ -320,9 +322,9 @@ class TravelPlanner:
         for food in foods_list:
             try:
                 # 使用DuckDuckGo搜索图片
-                images = self.search_toolkit.search_duckduckgo(
+                images = self.search_toolkit.search_bing_images(
                     query=f"{city} {food['name']} 美食",
-                    source="images",
+                    # source="images",
                     max_results=1
                 )
                 
@@ -330,7 +332,7 @@ class TravelPlanner:
                 food_with_image = {
                     "name": food["name"],
                     "describe": food["description"],
-                    "图片url": images[0]["image"] if images else "",
+                    "图片url": images[0]["image_url"] if images else "",
                 }
                 result['美食'].append(food_with_image)
                 
@@ -346,16 +348,16 @@ class TravelPlanner:
         for food_shop in food_shops_list:
             try:
                 # 使用DuckDuckGo搜索图片
-                images = self.search_toolkit.search_duckduckgo(
+                images = self.search_toolkit.search_bing_images(
                     query=f"{city} {food_shop['name']} 美食店铺",
-                    source="images",
+                    # source="images",
                     max_results=1
                 )
                 # 添加图片URL
                 food_shop_with_image = {
                     "name": food_shop["name"],
                     "describe": food_shop["description"],
-                    "图片url": images[0]["image"] if images else "",
+                    "图片url": images[0]["image_url"] if images else "",
                 }
                 result['美食店铺'].append(food_shop_with_image)
             except Exception as e:
@@ -367,6 +369,8 @@ class TravelPlanner:
                     "图片url": ""
                 })
         try:
+
+
             # 获取当前脚本所在目录
             current_dir = os.path.dirname(os.path.abspath(__file__))
             # 创建storage目录路径
@@ -390,8 +394,10 @@ class TravelPlanner:
 @app.route('/get_travel_plan', methods=['POST'])
 def get_travel_plan():
    try:
+        
        # 获取请求数据
        data = request.get_json()
+
        
        # 验证输入数据
        if not data or 'city' not in data or 'days' not in data:
